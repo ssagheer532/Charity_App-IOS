@@ -31,11 +31,19 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZ3-gg-dSW">
                                 <rect key="frame" x="188" y="447" width="56" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.53174185426716325" green="1" blue="0.837746731668364" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="button2"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTy-C1-yEj">
-                                <rect key="frame" x="232" y="347" width="52" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAp-aO-SdQ">
+                                <rect key="frame" x="7" y="457" width="56" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.53174185426716325" green="1" blue="0.837746731668364" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="button3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTy-C1-yEj">
+                                <rect key="frame" x="218" y="290" width="81" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.53174185426716325" green="1" blue="0.837746731668364" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="button1"/>
                             </button>
                         </subviews>
@@ -44,6 +52,7 @@
                     <connections>
                         <outlet property="button1" destination="qTy-C1-yEj" id="Z58-7G-Jeq"/>
                         <outlet property="button2" destination="pZ3-gg-dSW" id="4YE-X1-tln"/>
+                        <outlet property="button3" destination="fAp-aO-SdQ" id="2aZ-e3-ZbG"/>
                         <outlet property="temp" destination="16M-oj-rOY" id="ORB-md-0sg"/>
                     </connections>
                 </viewController>
