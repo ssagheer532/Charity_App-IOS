@@ -104,6 +104,15 @@ class ViewController: UIViewController {
     var timer = Timer()
     
     
+    @IBAction func button1Pressed(_ sender: UIButton) {
+        //sleep(4)
+        var a = 4
+        
+        
+        sender.isHidden = true
+        
+        
+    }
     var counter = 0
     func scheduledTimerWithTimeInterval(){
         // Scheduling timer to Call the function **Countdown** with the interval of 1 seconds

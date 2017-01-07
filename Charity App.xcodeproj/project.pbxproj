@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3994F3521E205BC900084777 /* bubble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3994F3511E205BC900084777 /* bubble.jpg */; };
 		39F6599A1E1DF2150093409F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F659991E1DF2150093409F /* AppDelegate.swift */; };
 		39F6599C1E1DF2150093409F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F6599B1E1DF2150093409F /* ViewController.swift */; };
 		39F6599F1E1DF2150093409F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F6599D1E1DF2150093409F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3994F3511E205BC900084777 /* bubble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bubble.jpg; path = ../../../Documents/bubble.jpg; sourceTree = "<group>"; };
 		39F659961E1DF2150093409F /* Charity App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charity App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F659991E1DF2150093409F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39F6599B1E1DF2150093409F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				39F659991E1DF2150093409F /* AppDelegate.swift */,
 				39F6599B1E1DF2150093409F /* ViewController.swift */,
 				39F6599D1E1DF2150093409F /* Main.storyboard */,
+				3994F3511E205BC900084777 /* bubble.jpg */,
 				39F659A01E1DF2150093409F /* Assets.xcassets */,
 				39F659A21E1DF2150093409F /* LaunchScreen.storyboard */,
 				39F659A51E1DF2150093409F /* Info.plist */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F659A41E1DF2150093409F /* LaunchScreen.storyboard in Resources */,
+				3994F3521E205BC900084777 /* bubble.jpg in Resources */,
 				39F659A11E1DF2150093409F /* Assets.xcassets in Resources */,
 				39F6599F1E1DF2150093409F /* Main.storyboard in Resources */,
 			);
@@ -505,6 +509,7 @@
 				39F659C01E1DF2150093409F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39F659C11E1DF2150093409F /* Build configuration list for PBXNativeTarget "Charity AppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				39F659C31E1DF2150093409F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39F659C41E1DF2150093409F /* Build configuration list for PBXNativeTarget "Charity AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				39F659C61E1DF2150093409F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
