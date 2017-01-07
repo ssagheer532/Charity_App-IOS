@@ -105,10 +105,10 @@ class ViewController: UIViewController {
     
     
     @IBAction func button1Pressed(_ sender: UIButton) {
-        //sleep(4)
-        var a = 4
         
-        
+        sender.center.x = -50//bring button off screen
+        sender.center.y = -50
+
         sender.isHidden = true
         
         
