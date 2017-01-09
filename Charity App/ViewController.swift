@@ -10,12 +10,44 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var cordinate2dArray: [[Double]] = [ [0.1, 0.1], [0.1, 0.1], [0.1, 0.1]]
+    var cordinate2dArray: [[Double]] = [ [0.3, 0.3], [0.3, 0.3], [0.3, 0.3]]
+    var red = 3.0/255.0
+    var blue = 0.0
+    var green = 0.0
     
     var numberOfButtons = 10
     @IBAction func moveButton(_ button: UIButton) {
-        var movementX = 0.1
-        var movementY = 0.1
+        var movementX = 0.3
+        var movementY = 0.3
+        
+        if red > 1.0 && blue == 0.0 && green == 0.0 {
+            red = 0
+            green = green + 0.001
+        }
+        else if green > 1.0 && blue == 0.0 && red == 0.0 {
+            green = 0
+            blue = blue + 0.001
+        }
+        else if blue > 1.0 && red == 0.0 && green == 0.0 {
+            blue = 0
+            red = red + 0.001
+        }
+        else if green != 0.0 {
+            green = green + 0.001
+            
+        }
+        else if red != 0.0 {
+            red = red + 0.001
+            
+        }
+        else if blue != 0.0 {
+            blue = blue + 0.001
+            
+        }
+        
+        
+        button.backgroundColor = UIColor(red: CGFloat(red), green: CGFloat(green), blue: CGFloat(blue), alpha: 0.5)
+        
         
         movementX = cordinate2dArray[button.tag-1][0]
         movementY = cordinate2dArray[button.tag-1][1]
@@ -120,7 +152,7 @@ class ViewController: UIViewController {
     var counter = 0
     func scheduledTimerWithTimeInterval(){
         // Scheduling timer to Call the function **Countdown** with the interval of 1 seconds
-        timer = Timer.scheduledTimer(timeInterval: 0.001, target: self, selector: #selector(self.updateCounting), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 0.005, target: self, selector: #selector(self.updateCounting), userInfo: nil, repeats: true)
     }
     
     func updateCounting(){
