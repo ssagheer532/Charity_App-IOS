@@ -55,12 +55,14 @@ class ViewController: UIViewController {
             
             
             if let btn = view as? UIButton{
-                
+                if btn.tag == 0 {
+                continue
+                }
                 
                 let buttonCurrentX1 = btn.center.x + (btn.frame.width/2)
                 let buttonCurrentX2 = btn.center.x - (btn.frame.width/2)
                 let buttonCurrentY1 = btn.center.y + (btn.frame.height/2)
-                let buttonCurrentY2 = btn.center.y - (btn.frame.height/2)
+             //   let buttonCurrentY2 = btn.center.y - (btn.frame.height/2)
                 
                 if (buttonCurrentX2 > buttonX2 && buttonCurrentX2 < buttonX1) ||
                    (buttonCurrentX1 < buttonX1 && buttonCurrentX1 > buttonX2){
@@ -100,11 +102,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
+    @IBOutlet weak var menuItem1: UIButton!
     
     var timer = Timer()
     
     
     @IBAction func button1Pressed(_ sender: UIButton) {
+        
         
         sender.center.x = -50//bring button off screen
         sender.center.y = -50
@@ -132,6 +136,7 @@ class ViewController: UIViewController {
         button1.tag = 1
         button2.tag = 2
         button3.tag = 3
+        menuItem1.tag = 0
         
         scheduledTimerWithTimeInterval()
         
