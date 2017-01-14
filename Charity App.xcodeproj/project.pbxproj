@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3984E7141E2ADC7800FB215E /* CharityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3984E7131E2ADC7800FB215E /* CharityList.swift */; };
+		3984E7161E2ADDDA00FB215E /* Charity_ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3984E7151E2ADDDA00FB215E /* Charity_ListViewController.swift */; };
 		3994F3521E205BC900084777 /* bubble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3994F3511E205BC900084777 /* bubble.jpg */; };
 		39F6599A1E1DF2150093409F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F659991E1DF2150093409F /* AppDelegate.swift */; };
 		39F6599C1E1DF2150093409F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F6599B1E1DF2150093409F /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3984E7131E2ADC7800FB215E /* CharityList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharityList.swift; sourceTree = "<group>"; };
+		3984E7151E2ADDDA00FB215E /* Charity_ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charity_ListViewController.swift; sourceTree = "<group>"; };
 		3994F3511E205BC900084777 /* bubble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bubble.jpg; path = ../../../Documents/bubble.jpg; sourceTree = "<group>"; };
 		39F659961E1DF2150093409F /* Charity App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charity App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F659991E1DF2150093409F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +105,9 @@
 			children = (
 				39F659991E1DF2150093409F /* AppDelegate.swift */,
 				39F6599B1E1DF2150093409F /* ViewController.swift */,
+				3984E7131E2ADC7800FB215E /* CharityList.swift */,
 				39F6599D1E1DF2150093409F /* Main.storyboard */,
+				3984E7151E2ADDDA00FB215E /* Charity_ListViewController.swift */,
 				3994F3511E205BC900084777 /* bubble.jpg */,
 				39F659A01E1DF2150093409F /* Assets.xcassets */,
 				39F659A21E1DF2150093409F /* LaunchScreen.storyboard */,
@@ -265,6 +271,8 @@
 			files = (
 				39F6599C1E1DF2150093409F /* ViewController.swift in Sources */,
 				39F6599A1E1DF2150093409F /* AppDelegate.swift in Sources */,
+				3984E7161E2ADDDA00FB215E /* Charity_ListViewController.swift in Sources */,
+				3984E7141E2ADC7800FB215E /* CharityList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,13 +21,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16M-oj-rOY">
-                                <rect key="frame" x="134" y="221" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZ3-gg-dSW">
                                 <rect key="frame" x="188" y="447" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -59,7 +52,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTy-C1-yEj">
-                                <rect key="frame" x="227" y="278" width="30" height="30"/>
+                                <rect key="frame" x="224" y="321" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53174185426716325" green="1" blue="0.837746731668364" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="1"/>
@@ -74,11 +67,37 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tdt-76-5IN">
-                                <rect key="frame" x="146" y="166" width="46" height="30"/>
+                                <rect key="frame" x="147" y="122" width="74" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Watch Ads"/>
                                 <connections>
                                     <segue destination="yUR-MH-lvH" kind="show" id="blP-bL-3Um"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWd-IJ-Akt">
+                                <rect key="frame" x="145" y="222" width="78" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Charity List"/>
+                                <connections>
+                                    <segue destination="UDM-j5-s34" kind="show" id="o8S-sD-hci"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPK-AK-CrX">
+                                <rect key="frame" x="121" y="272" width="126" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Current Donations"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMH-of-oCD">
+                                <rect key="frame" x="152" y="322" width="64" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="About Us"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cn9-pq-CBr">
+                                <rect key="frame" x="171" y="172" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Vote"/>
+                                <connections>
+                                    <segue destination="gWq-M0-O4k" kind="show" id="WWr-TU-kNB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -89,12 +108,72 @@
                         <outlet property="button2" destination="pZ3-gg-dSW" id="4YE-X1-tln"/>
                         <outlet property="button3" destination="fAp-aO-SdQ" id="2aZ-e3-ZbG"/>
                         <outlet property="menuItem1" destination="Tdt-76-5IN" id="VIu-es-jO4"/>
-                        <outlet property="temp" destination="16M-oj-rOY" id="ORB-md-0sg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-233" y="11"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aux-A5-LM8">
+            <objects>
+                <viewController id="gWq-M0-O4k" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EFg-gH-Ebc"/>
+                        <viewControllerLayoutGuide type="bottom" id="sF3-iI-qFQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jWZ-Zc-g2C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zg6-46-SSB">
+                                <rect key="frame" x="16" y="20" width="89" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back to Main"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AY2-aR-DuB">
+                                <rect key="frame" x="16" y="20" width="89" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back to Main"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="vHQ-WP-pQK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S4m-Ef-WmL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-494" y="-707"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NBt-Vk-ola">
+            <objects>
+                <viewController id="UDM-j5-s34" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Ag-t0-NMe"/>
+                        <viewControllerLayoutGuide type="bottom" id="2VV-AI-mfI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HQ1-oi-7cc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oiF-Qb-bKy">
+                                <rect key="frame" x="33" y="28" width="89" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back to Main"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="NXx-PD-RbU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UyY-4Y-2fg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="317.60000000000002" y="-644.52773613193403"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ibb-5z-sNg">
@@ -122,7 +201,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qwF-Qj-ux8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="564" y="24.7376311844078"/>
+            <point key="canvasLocation" x="665" y="41"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="NXx-PD-RbU"/>
+    </inferredMetricsTieBreakers>
 </document>
