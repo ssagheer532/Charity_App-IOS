@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3984E7141E2ADC7800FB215E /* CharityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3984E7131E2ADC7800FB215E /* CharityList.swift */; };
 		3984E7161E2ADDDA00FB215E /* Charity_ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3984E7151E2ADDDA00FB215E /* Charity_ListViewController.swift */; };
+		3984E7191E2D966000FB215E /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E7181E2D966000FB215E /* GoogleMobileAds.framework */; };
+		3984E71B1E2D967D00FB215E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E71A1E2D967D00FB215E /* AdSupport.framework */; };
+		3984E71D1E2D968E00FB215E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E71C1E2D968E00FB215E /* AudioToolbox.framework */; };
+		3984E71F1E2D969B00FB215E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E71E1E2D969B00FB215E /* AVFoundation.framework */; };
+		3984E7211E2D96AC00FB215E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E7201E2D96AC00FB215E /* CoreGraphics.framework */; };
+		3984E7231E2D96CF00FB215E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E7221E2D96CF00FB215E /* CoreTelephony.framework */; };
+		3984E7251E2D96D800FB215E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E7241E2D96D800FB215E /* MessageUI.framework */; };
+		3984E7271E2D96DF00FB215E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E7261E2D96DF00FB215E /* SystemConfiguration.framework */; };
+		3984E7291E2D96E500FB215E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E7281E2D96E500FB215E /* StoreKit.framework */; };
+		3984E72C1E2D96ED00FB215E /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E72A1E2D96ED00FB215E /* EventKit.framework */; };
+		3984E72D1E2D96ED00FB215E /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E72B1E2D96ED00FB215E /* EventKitUI.framework */; };
+		3984E72E1E2D97D000FB215E /* GoogleMobileAds.framework in Sources */ = {isa = PBXBuildFile; fileRef = 3984E7181E2D966000FB215E /* GoogleMobileAds.framework */; };
 		3994F3521E205BC900084777 /* bubble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3994F3511E205BC900084777 /* bubble.jpg */; };
 		39F6599A1E1DF2150093409F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F659991E1DF2150093409F /* AppDelegate.swift */; };
 		39F6599C1E1DF2150093409F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F6599B1E1DF2150093409F /* ViewController.swift */; };
@@ -37,8 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3984E7131E2ADC7800FB215E /* CharityList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharityList.swift; sourceTree = "<group>"; };
 		3984E7151E2ADDDA00FB215E /* Charity_ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charity_ListViewController.swift; sourceTree = "<group>"; };
+		3984E7181E2D966000FB215E /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../Downloads/GoogleMobileAdsSdkiOS-7.16.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		3984E71A1E2D967D00FB215E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3984E71C1E2D968E00FB215E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3984E71E1E2D969B00FB215E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3984E7201E2D96AC00FB215E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3984E7221E2D96CF00FB215E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3984E7241E2D96D800FB215E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3984E7261E2D96DF00FB215E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3984E7281E2D96E500FB215E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3984E72A1E2D96ED00FB215E /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		3984E72B1E2D96ED00FB215E /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 		3994F3511E205BC900084777 /* bubble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bubble.jpg; path = ../../../Documents/bubble.jpg; sourceTree = "<group>"; };
 		39F659961E1DF2150093409F /* Charity App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charity App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F659991E1DF2150093409F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +81,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3984E72C1E2D96ED00FB215E /* EventKit.framework in Frameworks */,
+				3984E72D1E2D96ED00FB215E /* EventKitUI.framework in Frameworks */,
+				3984E7291E2D96E500FB215E /* StoreKit.framework in Frameworks */,
+				3984E7271E2D96DF00FB215E /* SystemConfiguration.framework in Frameworks */,
+				3984E7251E2D96D800FB215E /* MessageUI.framework in Frameworks */,
+				3984E7231E2D96CF00FB215E /* CoreTelephony.framework in Frameworks */,
+				3984E7211E2D96AC00FB215E /* CoreGraphics.framework in Frameworks */,
+				3984E71F1E2D969B00FB215E /* AVFoundation.framework in Frameworks */,
+				3984E71D1E2D968E00FB215E /* AudioToolbox.framework in Frameworks */,
+				3984E71B1E2D967D00FB215E /* AdSupport.framework in Frameworks */,
+				3984E7191E2D966000FB215E /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +112,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3984E7171E2D965F00FB215E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3984E72A1E2D96ED00FB215E /* EventKit.framework */,
+				3984E72B1E2D96ED00FB215E /* EventKitUI.framework */,
+				3984E7281E2D96E500FB215E /* StoreKit.framework */,
+				3984E7261E2D96DF00FB215E /* SystemConfiguration.framework */,
+				3984E7241E2D96D800FB215E /* MessageUI.framework */,
+				3984E7221E2D96CF00FB215E /* CoreTelephony.framework */,
+				3984E7201E2D96AC00FB215E /* CoreGraphics.framework */,
+				3984E71E1E2D969B00FB215E /* AVFoundation.framework */,
+				3984E71C1E2D968E00FB215E /* AudioToolbox.framework */,
+				3984E71A1E2D967D00FB215E /* AdSupport.framework */,
+				3984E7181E2D966000FB215E /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		39F6598D1E1DF2140093409F = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +137,7 @@
 				39F659AD1E1DF2150093409F /* Charity AppTests */,
 				39F659B81E1DF2150093409F /* Charity AppUITests */,
 				39F659971E1DF2150093409F /* Products */,
+				3984E7171E2D965F00FB215E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +156,6 @@
 			children = (
 				39F659991E1DF2150093409F /* AppDelegate.swift */,
 				39F6599B1E1DF2150093409F /* ViewController.swift */,
-				3984E7131E2ADC7800FB215E /* CharityList.swift */,
 				39F6599D1E1DF2150093409F /* Main.storyboard */,
 				3984E7151E2ADDDA00FB215E /* Charity_ListViewController.swift */,
 				3994F3511E205BC900084777 /* bubble.jpg */,
@@ -269,10 +319,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3984E72E1E2D97D000FB215E /* GoogleMobileAds.framework in Sources */,
 				39F6599C1E1DF2150093409F /* ViewController.swift in Sources */,
 				39F6599A1E1DF2150093409F /* AppDelegate.swift in Sources */,
 				3984E7161E2ADDDA00FB215E /* Charity_ListViewController.swift in Sources */,
-				3984E7141E2ADC7800FB215E /* CharityList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +403,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/ahadsagheer/Downloads/GoogleMobileAdsSdkiOS-7.16.0";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -403,6 +454,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/ahadsagheer/Downloads/GoogleMobileAdsSdkiOS-7.16.0";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

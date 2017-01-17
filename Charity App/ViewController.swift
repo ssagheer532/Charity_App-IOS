@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import GoogleMobileAds
 class ViewController: UIViewController {
     
     var cordinate2dArray: [[Double]] = [ [0.3, 0.3], [0.3, 0.3], [0.3, 0.3]]

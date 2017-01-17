@@ -175,10 +175,10 @@
             </objects>
             <point key="canvasLocation" x="317.60000000000002" y="-644.52773613193403"/>
         </scene>
-        <!--View Controller-->
+        <!--Charity List View Controller-->
         <scene sceneID="ibb-5z-sNg">
             <objects>
-                <viewController id="yUR-MH-lvH" sceneMemberID="viewController">
+                <viewController id="yUR-MH-lvH" customClass="Charity_ListViewController" customModule="Charity_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="J7c-ce-o0i"/>
                         <viewControllerLayoutGuide type="bottom" id="O0P-r3-IMi"/>
@@ -195,16 +195,24 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="RWG-X5-xad"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecx-ek-Qex">
+                                <rect key="frame" x="135" y="268" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="show ad"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="ad" destination="ecx-ek-Qex" id="ZwR-Zb-bUT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qwF-Qj-ux8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="665" y="41"/>
+            <point key="canvasLocation" x="664.79999999999995" y="40.929535232383813"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="NXx-PD-RbU"/>
+        <segue reference="RWG-X5-xad"/>
     </inferredMetricsTieBreakers>
 </document>
