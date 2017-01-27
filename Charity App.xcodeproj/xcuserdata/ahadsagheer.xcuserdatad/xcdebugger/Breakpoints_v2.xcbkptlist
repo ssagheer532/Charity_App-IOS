@@ -51,5 +51,128 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Downloads/ios-swift-collapsible-table-section-master/ios-swift-collapsible-table-section/CollapsibleTableViewController.swift"
+            timestampString = "507253702.825448"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "CollapsibleTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Charity_App.CollapsibleTableViewController.__deallocating_deinit"
+                  moduleName = "Charity App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahadsagheer/Downloads/ios-swift-collapsible-table-section-master/ios-swift-collapsible-table-section/CollapsibleTableViewController.swift"
+                  timestampString = "507253703.785412"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Charity_App.CollapsibleTableViewController.init (style : __C.UITableViewStyle) -&gt; Charity_App.CollapsibleTableViewController"
+                  moduleName = "Charity App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahadsagheer/Downloads/ios-swift-collapsible-table-section-master/ios-swift-collapsible-table-section/CollapsibleTableViewController.swift"
+                  timestampString = "507253703.797474"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Charity_App.CollapsibleTableViewController.__allocating_init (style : __C.UITableViewStyle) -&gt; Charity_App.CollapsibleTableViewController"
+                  moduleName = "Charity App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahadsagheer/Downloads/ios-swift-collapsible-table-section-master/ios-swift-collapsible-table-section/CollapsibleTableViewController.swift"
+                  timestampString = "507253703.799805"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Charity_App.CollapsibleTableViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Charity_App.CollapsibleTableViewController"
+                  moduleName = "Charity App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahadsagheer/Downloads/ios-swift-collapsible-table-section-master/ios-swift-collapsible-table-section/CollapsibleTableViewController.swift"
+                  timestampString = "507253703.801904"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "82">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Charity_App.CollapsibleTableViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Charity_App.CollapsibleTableViewController"
+                  moduleName = "Charity App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahadsagheer/Downloads/ios-swift-collapsible-table-section-master/ios-swift-collapsible-table-section/CollapsibleTableViewController.swift"
+                  timestampString = "507253703.804404"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Charity_App.CollapsibleTableViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Charity_App.CollapsibleTableViewController&gt;"
+                  moduleName = "Charity App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahadsagheer/Downloads/ios-swift-collapsible-table-section-master/ios-swift-collapsible-table-section/CollapsibleTableViewController.swift"
+                  timestampString = "507253703.806592"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Charity_App.CollapsibleTableViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Charity_App.CollapsibleTableViewController&gt;"
+                  moduleName = "Charity App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahadsagheer/Downloads/ios-swift-collapsible-table-section-master/ios-swift-collapsible-table-section/CollapsibleTableViewController.swift"
+                  timestampString = "507253703.808707"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
