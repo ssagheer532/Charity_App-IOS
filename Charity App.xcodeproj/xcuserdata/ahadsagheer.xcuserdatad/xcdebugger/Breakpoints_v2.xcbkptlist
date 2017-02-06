@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Downloads/ios-swift-collapsible-table-section-master/ios-swift-collapsible-table-section/CollapsibleTableViewController.swift"
-            timestampString = "507253702.825448"
+            timestampString = "507254196.512861"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "CollapsibleTableViewController"
             landmarkType = "3">
             <Locations>

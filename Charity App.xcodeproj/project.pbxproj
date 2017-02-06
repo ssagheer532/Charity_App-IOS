@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		395072841E3C0C6E005670E6 /* show_ad_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395072831E3C0C6E005670E6 /* show_ad_Controller.swift */; };
-		3950728E1E3C12DF005670E6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3950728D1E3C12DF005670E6 /* Extensions.swift */; };
-		395072901E3C1302005670E6 /* CollapsibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3950728F1E3C1302005670E6 /* CollapsibleTableViewController.swift */; };
-		395072921E3C1310005670E6 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395072911E3C1310005670E6 /* CollapsibleTableViewHeader.swift */; };
 		3984E7191E2D966000FB215E /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E7181E2D966000FB215E /* GoogleMobileAds.framework */; };
 		3984E71B1E2D967D00FB215E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E71A1E2D967D00FB215E /* AdSupport.framework */; };
 		3984E71D1E2D968E00FB215E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3984E71C1E2D968E00FB215E /* AudioToolbox.framework */; };
@@ -53,9 +50,6 @@
 
 /* Begin PBXFileReference section */
 		395072831E3C0C6E005670E6 /* show_ad_Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = show_ad_Controller.swift; sourceTree = "<group>"; };
-		3950728D1E3C12DF005670E6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "../../../Downloads/ios-swift-collapsible-table-section-master/ios-swift-collapsible-table-section/Extensions.swift"; sourceTree = "<group>"; };
-		3950728F1E3C1302005670E6 /* CollapsibleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollapsibleTableViewController.swift; path = "../../../Downloads/ios-swift-collapsible-table-section-master/ios-swift-collapsible-table-section/CollapsibleTableViewController.swift"; sourceTree = "<group>"; };
-		395072911E3C1310005670E6 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollapsibleTableViewHeader.swift; path = "../../../Downloads/ios-swift-collapsible-table-section-master/ios-swift-collapsible-table-section/CollapsibleTableViewHeader.swift"; sourceTree = "<group>"; };
 		3984E7181E2D966000FB215E /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../Downloads/GoogleMobileAdsSdkiOS-7.16.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		3984E71A1E2D967D00FB215E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		3984E71C1E2D968E00FB215E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -171,9 +165,6 @@
 				39F659A01E1DF2150093409F /* Assets.xcassets */,
 				39F659A21E1DF2150093409F /* LaunchScreen.storyboard */,
 				39F659A51E1DF2150093409F /* Info.plist */,
-				3950728F1E3C1302005670E6 /* CollapsibleTableViewController.swift */,
-				395072911E3C1310005670E6 /* CollapsibleTableViewHeader.swift */,
-				3950728D1E3C12DF005670E6 /* Extensions.swift */,
 			);
 			path = "Charity App";
 			sourceTree = "<group>";
@@ -332,13 +323,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				395072921E3C1310005670E6 /* CollapsibleTableViewHeader.swift in Sources */,
-				395072901E3C1302005670E6 /* CollapsibleTableViewController.swift in Sources */,
 				3984E72E1E2D97D000FB215E /* GoogleMobileAds.framework in Sources */,
 				395072841E3C0C6E005670E6 /* show_ad_Controller.swift in Sources */,
 				39F6599C1E1DF2150093409F /* ViewController.swift in Sources */,
 				39F6599A1E1DF2150093409F /* AppDelegate.swift in Sources */,
-				3950728E1E3C12DF005670E6 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
